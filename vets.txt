@@ -1,3 +1,8 @@
+
+Terminal:
+$ mysql -u root -p
+password: root
+
 mysql> SHOW DATABASES;
 +--------------------+
 | Database           |
