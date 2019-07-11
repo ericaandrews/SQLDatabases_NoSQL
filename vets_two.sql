@@ -68,7 +68,8 @@ select DISTINCT
 
 /*
 Display the 'cl_id' for those with one or more reptiles ('snake', 'chelonian', 'crocodilian', 'lizard', 'bird', 'turtle').
-Display the 'cl_id' and the 'an_type'. Sort by the 'cl_id'. 
+Display the 'cl_id' and the 'an_type'. 
+Sort by the 'cl_id'. 
 This task assumes you have a table created called 'vt_animals' with data similar to the output. 
 */
 
@@ -139,7 +140,8 @@ select
 /*
 Display the 'ex_id', 'ex_date', 'srv_id' and 'ex_fee' for each rodent ('hamster', 'capybara', 'porcupine', 'dormouse'). 
 Order the rows by the 'ex_id' and 'srv_id'. 
-This task assumes you have a table created called 'vt_exam_details', 'vt_exam_headers', and 'vt_animals' with data similar to the output. 
+This task assumes you have a table created called 'vt_exam_details', 'vt_exam_headers', 
+and 'vt_animals' with data similar to the output. 
 */
 
 select 
@@ -182,7 +184,8 @@ select
 /*
 Show the 'cl_id', ex_id', 'ex_date', 'srv_id', and the 'ex_fee' for 'ex_fee' is less than 25 or more than 200. 
 Order by 'ex_date' and 'srv_id'. 
-This task assumes you have a table created called 'vt_exam_details', 'vt_exam_headers', and 'vt_animals' with data similar to the output.
+This task assumes you have a table created called 'vt_exam_details', 'vt_exam_headers', 
+and 'vt_animals' with data similar to the output.
 */
 
 select 
