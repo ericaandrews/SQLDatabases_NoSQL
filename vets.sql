@@ -1,7 +1,8 @@
 /* TASK 01 */
 
 /*
-For each row in the 'vt_staff' table, display 'stf_name_first', 'stf_name_last' and 'stf_job_title' This task assumes you have a table created called 'vt_staff' with data similar to the output. 
+For each row in the 'vt_staff' table, display 'stf_name_first', 'stf_name_last' and 'stf_job_title'. 
+This task assumes you have a table created called 'vt_staff' with data similar to the output. 
 */
 
 select 
@@ -28,7 +29,11 @@ select
 /* TASK 02 */
 
 /*
-Display the 'an_id' with a column alias of 'ID', the 'an_name' with a column alias of 'Name', the 'an_type' with the column alias 'Animal Type', and the 'an_dob' with a column alias of 'BirthDate'. Display the data with the oldest first. This task assumes you have a table created called 'vt_animals' with data similar to the output.
+Display the 'an_id' with a column alias of 'ID', the 'an_name' with a column alias of 'Name', 
+the 'an_type' with the column alias 'Animal Type', 
+and the 'an_dob' with a column alias of 'BirthDate'. 
+Display the data with the oldest first. 
+This task assumes you have a table created called 'vt_animals' with data similar to the output.
 */
 
 select 
@@ -87,7 +92,9 @@ select
 /* TASK 03 */
 
 /*
-Display the 'an_type' from the 'vt_animals' table. Suppress any duplicates. This task assumes you have a table created called 'vt_animals' with data similar to the output.
+Display the 'an_type' from the 'vt_animals' table. 
+Suppress any duplicates. 
+This task assumes you have a table created called 'vt_animals' with data similar to the output.
 */
 
 select DISTINCT
@@ -115,7 +122,9 @@ select DISTINCT
 /* TASK 04 */
 
 /*
-For each row in the 'vt_services' table, display the 'srv_type' and 'srv_desc'. The rows should be sorted by the 'srv_type' and 'srv_list_price'. This task assumes you have a table created called 'vt_services' with data similar to the output.
+For each row in the 'vt_services' table, display the 'srv_type' and 'srv_desc'. 
+The rows should be sorted by the 'srv_type' and 'srv_list_price'. 
+This task assumes you have a table created called 'vt_services' with data similar to the output.
 */
 
 select
@@ -167,7 +176,9 @@ select
 /* TASK 05 */
 
 /*
-Display the 'ex_id', the 'srv_id', and the 'ex_fee'. Order by the 'ex_id' and then by the 'ex_fee'. This task assumes you have a table created called 'vt_exam_details' with data similar to the output.
+Display the 'ex_id', the 'srv_id', and the 'ex_fee'. 
+Order by the 'ex_id' and then by the 'ex_fee'. 
+This task assumes you have a table created called 'vt_exam_details' with data similar to the output.
 */
 
 select
@@ -270,7 +281,10 @@ select
 /* TASK 06 */
 
 /*
-Display the 'an_name','an_type' and 'an_dob' values from the 'vt_animals' table. Suppress any duplicates. Sort the display in the order by the 'an_type' as the first sort key and the 'an_name' as the second sort key. This task assumes you have a table created called 'vt_animals' with data similar to the output.
+Display the 'an_name','an_type' and 'an_dob' values from the 'vt_animals' table. 
+Suppress any duplicates. 
+Sort the display in the order by the 'an_type' as the first sort key and the 'an_name' as the second sort key. 
+This task assumes you have a table created called 'vt_animals' with data similar to the output.
 */
 
 select DISTINCT
@@ -325,7 +339,10 @@ select DISTINCT
 /* TASK 07 */
 
 /*
-Display the 'an_id', the 'ex_date', and the 'stf_id'. Display the rows in order by the 'stf_id'. Use the 'ex_date' as the second sort key with the earlier first. This task assumes you have a table created called 'vt_exam_headers' with data similar to the output.
+Display the 'an_id', the 'ex_date', and the 'stf_id'. 
+Display the rows in order by the 'stf_id'. 
+Use the 'ex_date' as the second sort key with the earlier first. 
+This task assumes you have a table created called 'vt_exam_headers' with data similar to the output.
 */
 
 select
@@ -389,7 +406,9 @@ select
 /* TASK 08 */
 
 /*
-Display the 'cl_state' in the first column and the 'cl_city' in the second column. Do not include duplicate rows and sort the result set by 'cl_state' and 'cl_city'. This task assumes you have a table created called 'vt_clients' with data similar to the output.
+Display the 'cl_state' in the first column and the 'cl_city' in the second column. 
+Do not include duplicate rows and sort the result set by 'cl_state' and 'cl_city'. 
+This task assumes you have a table created called 'vt_clients' with data similar to the output.
 */
 
 select DISTINCT
